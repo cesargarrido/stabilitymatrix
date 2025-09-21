@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   CLAAssistant:
-    if: github.repository == 'LykosAI/StabilityMatrix'
+    if: github.repository == 'cesargarrido/stabilitymatrix'
     runs-on: ubuntu-latest
     steps:
       - name: "CLA Assistant"
